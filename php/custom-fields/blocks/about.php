@@ -37,5 +37,3 @@
     <div class="absolute bottom-0 h-1/3 w-full"></div>
 
 </section>
-
-Hello Haroon
