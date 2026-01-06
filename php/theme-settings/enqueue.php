@@ -1,0 +1,99 @@
+<?php
+/**
+ * Asset Management Functions
+ * 
+ * Handles the efficient loading of CSS and JavaScript files
+ * with proper versioning and dependency management.
+ *
+ * @package TheTriibe
+ * @version 1.0.0
+ */
+
+if (!defined('ABSPATH')) {
+    exit;
+}
+
+/**
+ * Define asset paths and configurations
+ */
+// Theme asset manifest - only reference files that exist in the theme to avoid leaks
+define('THEME_ASSETS', [
+    'css' => [
+        'hando' => [
+            'path' => '/assets/fonts/hando/stylesheet.css',
+            'deps' => []
+        ],
+        'tailwind-output' => [
+            'path' => '/assets/css/tailwind-output.css',
+            'deps' => []
+        ],
+        'main' => [
+            'path' => '/assets/css/custom.css',
+            'deps' => []
+        ]
+    ],
+    'js' => [
+        'main' => [
+            'path' => '/assets/js/custom.js',
+            'deps' => ['jquery']
+        ]
+    ]
+]);
+
+/**
+ * Enqueue stylesheet with proper version control
+ */
+function enqueue_theme_style($handle, $path, $deps = []) {
+    $full_path = THEME_DIR . $path;
+    
+    if (!file_exists($full_path)) {
+        return;
+    }
+
+    wp_enqueue_style(
+        $handle,
+        THEME_URI . $path,
+        $deps,
+        filemtime($full_path)
+    );
+}
+
+/**
+ * Enqueue script with proper version control
+ */
+function enqueue_theme_script($handle, $path, $deps = []) {
+    $full_path = THEME_DIR . $path;
+    
+    if (!file_exists($full_path)) {
+        return;
+    }
+
+    wp_enqueue_script(
+        $handle,
+        THEME_URI . $path,
+        $deps,
+        filemtime($full_path),
+        true
+    );
+}
+
+/**
+ * Main enqueue function for all theme assets
+ */
+function enqueue_theme_assets() {
+    // Enqueue Styles
+    foreach (THEME_ASSETS['css'] as $handle => $asset) {
+        enqueue_theme_style($handle, $asset['path'], $asset['deps']);
+    }
+
+    // Enqueue Scripts
+    wp_enqueue_script('jquery');  // WordPress core jQuery (enqueue only the handle; WP will provide the file)
+    foreach (THEME_ASSETS['js'] as $handle => $asset) {
+        enqueue_theme_script($handle, $asset['path'], $asset['deps']);
+    }
+
+    // Localize Scripts
+}
+add_action('wp_enqueue_scripts', 'enqueue_theme_assets');
+
+// Note: theme supports such as WooCommerce should be declared in support.php (after theme setup)

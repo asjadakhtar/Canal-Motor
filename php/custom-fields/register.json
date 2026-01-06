@@ -1,0 +1,16 @@
+[
+    {
+        "name": "hero",
+        "title": "Hero Section",
+        "description": "This is the first section of a webpage.",
+        "template": "hero",
+        "keywords": "hero, section, webpage, homepage"
+    },
+    {
+        "name": "about",
+        "title": "About Section",
+        "description": "This is the about section of a webpage.",
+        "template": "about",
+        "keywords": "about, section, webpage"
+    }
+]
