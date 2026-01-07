@@ -86,7 +86,7 @@
     </div>
 
     <!-- Content Area: Yahan -translate-y-16 add kiya hai upar karne ke liye -->
-    <div class="relative z-10 text-center px-6 max-w-6xl mx-auto flex flex-col items-center gap-8 md:gap-12 -translate-y-16 md:-translate-y-44 transition-transform duration-700">
+    <div class="relative z-10 text-center px-6 max-w-7xl mx-auto flex flex-col items-center gap-8 md:gap-12 -translate-y-16 md:-translate-y-44 transition-transform duration-700">
         
         <!-- Main Heading -->
         <h1 class="text-white text-4xl md:text-6xl font-medium tracking-tight">
