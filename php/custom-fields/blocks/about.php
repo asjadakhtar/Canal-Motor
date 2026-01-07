@@ -33,7 +33,6 @@
     </div>
 
     <!-- Bottom Spacing for the Road Graphic -->
-    <!-- The road "JETOUR" graphic is part of your image, so we keep the text centered high enough not to cover the blue car/road area. -->
     <div class="absolute bottom-0 h-1/3 w-full"></div>
 
 </section>
