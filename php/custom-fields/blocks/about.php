@@ -1,19 +1,23 @@
 <section class="relative h-screen w-full flex flex-col items-center justify-center overflow-hidden">
     
-    <!-- Background Image with Mobile Swap -->
+    <!-- Background Image Container -->
     <div class="absolute inset-0 z-0">
-        <picture>
-            <!-- Mobile Image (sm and below) -->
-            <source media="(max-width: 639px)" srcset="https://mintcream-spoonbill-317228.hostingersite.com/wp-content/uploads/2026/01/p1_m.webp">
-            <!-- Desktop Image (md and above) -->
-            <img 
-                src="https://mintcream-spoonbill-317228.hostingersite.com/wp-content/uploads/2026/01/p1.webp" 
-                alt="Forest background" 
-                class="w-full h-full object-cover"
-            />
-        </picture>
-        <!-- Overlay for better text readability -->
-        <div class="absolute inset-0 bg-black/10"></div>
+        <!-- 1. Mobile Image: Sirf SM screen se neche dikhegi -->
+        <img 
+            src="https://mintcream-spoonbill-317228.hostingersite.com/wp-content/uploads/2026/01/p1_m.webp" 
+            alt="Forest Mobile" 
+            class="block sm:hidden w-full h-full object-cover"
+        />
+
+        <!-- 2. Desktop Image: SM screen aur us se upar dikhegi -->
+        <img 
+            src="https://mintcream-spoonbill-317228.hostingersite.com/wp-content/uploads/2026/01/p1.webp" 
+            alt="Forest Desktop" 
+            class="hidden sm:block w-full h-full object-cover"
+        />
+
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-black/20"></div>
     </div>
 
     <!-- Content Container -->
@@ -42,7 +46,7 @@
 
         <!-- Vision Text Area -->
         <div class="max-w-2xl mx-auto space-y-2">
-            <h2 class="text-white text-xl sm:text-2xl font-light tracking-wide italic">
+            <h2 class="text-white text-xl sm:text-2xl font-light tracking-wide">
                 Brand Vision
             </h2>
             <p class="text-white text-lg sm:text-xl md:text-2xl font-normal leading-tight tracking-wider">
