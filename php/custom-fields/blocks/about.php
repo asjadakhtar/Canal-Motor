@@ -2,14 +2,14 @@
     
     <!-- Background Image Container -->
     <div class="absolute inset-0 z-0">
-        <!-- 1. Mobile Image: Sirf SM screen se neche dikhegi -->
+        <!-- 1. Mobile Image: -->
         <img 
             src="https://mintcream-spoonbill-317228.hostingersite.com/wp-content/uploads/2026/01/p1_m.webp" 
             alt="Forest Mobile" 
             class="block sm:hidden w-full h-full object-cover"
         />
 
-        <!-- 2. Desktop Image: SM screen aur us se upar dikhegi -->
+        <!-- 2. Desktop Image: -->
         <img 
             src="https://mintcream-spoonbill-317228.hostingersite.com/wp-content/uploads/2026/01/p1.webp" 
             alt="Forest Desktop" 
