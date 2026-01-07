@@ -86,7 +86,7 @@
     </div>
 
     <!-- Content Area: Yahan -translate-y-16 add kiya hai upar karne ke liye -->
-    <div class="relative z-10 text-center px-6 max-w-6xl mx-auto flex flex-col items-center gap-8 md:gap-12 -translate-y-16 md:-translate-y-24 transition-transform duration-700">
+    <div class="relative z-10 text-center px-6 max-w-6xl mx-auto flex flex-col items-center gap-8 md:gap-12 -translate-y-16 md:-translate-y-44 transition-transform duration-700">
         
         <!-- Main Heading -->
         <h1 class="text-white text-4xl md:text-6xl font-medium tracking-tight">
@@ -95,11 +95,11 @@
 
         <!-- Paragraphs Container -->
         <div class="flex flex-col gap-6 md:gap-10 max-w-5xl">
-            <p class="text-white text-lg md:text-2xl font-normal leading-relaxed md:leading-snug tracking-wide">
+            <p class="text-white text-lg md:text-[26px] font-normal leading-relaxed md:leading-snug tracking-wide">
                 JETOUR was born with global vision. Launched in January, 2018, JETOUR is an emerging Chinese automotive brand in response to market trends and consumer demands.
             </p>
 
-            <p class="text-white text-lg md:text-2xl font-normal leading-relaxed md:leading-snug tracking-wide">
+            <p class="text-white text-lg md:text-[26px] font-normal leading-relaxed md:leading-snug tracking-wide">
                 With innovative products, unmatched performance, and user-oriented approach, JETOUR is quickly reshaping global automotive landscape.
             </p>
         </div>
