@@ -35,21 +35,15 @@
         </div>
 
        
-        <div class="space-y-6 max-w-4xl px-4">
-          <h2 class="text-white text-2xl md:text-4xl font-light tracking-[0.2em] uppercase">
+        <div class="max-w-4xl px-4">
+          <h2 class="text-white text-2xl md:text-4xl font-normal tracking-[0.2em] uppercase">
             Brand Vision
           </h2>
-          <div class="h-0.5 w-16 bg-[#39aeb2] mx-auto opacity-70"></div>
-          <p class="text-white text-xl md:text-3xl font-light leading-relaxed tracking-wide italic">
+          <p class="text-white text-xl md:text-3xl font-normal leading-relaxed tracking-wide italic">
             Become the World's Leading Hybrid Off-Road Brand
           </p>
         </div>
 
-      </div>
-
-      <div class="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-50 animate-bounce">
-        <span class="text-[10px] uppercase tracking-widest text-white/50">Explore</span>
-        <div class="w-[1px] h-10 bg-gradient-to-b from-white to-transparent"></div>
       </div>
 
     </section>
