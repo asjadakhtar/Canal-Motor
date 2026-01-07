@@ -8,15 +8,15 @@
             class="w-full h-full object-cover"
         />
         <!-- Optional Overlay for text readability -->
-        <div class="absolute inset-0 bg-black/10"></div>
+        <div class="absolute inset-0 bg-black/30"></div>
     </div>
 
     <!-- Content Container -->
     <div class="relative z-10 text-center px-4 mb-20">
         
         <!-- Main Heading -->
-        <h1 class="text-5xl md:text-8xl font-black mb-6 flex flex-wrap justify-center items-center gap-x-4">
-            <span class="text-[#30B0C7]">ABOUT</span>
+        <h1 class="text-5xl md:text-8xl mb-6 flex flex-wrap justify-center items-center gap-x-4 font-normal">
+            <span class="text-[#39aeb2]">ABOUT</span>
             <span class="text-white letter-spacing-widest">JETOUR</span>
         </h1>
 
