@@ -5,7 +5,7 @@
     /* --color-secondary: #f87171; */
     --color-hover: rgba(0, 0, 0, 0.3);
 
-    --font-primary: "Hando";
+    --font-primary: "roboto", sans-serif;
 
     --default-font-family: "Hando", sans-serif;
 }
