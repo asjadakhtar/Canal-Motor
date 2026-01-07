@@ -17,7 +17,7 @@
         <!-- Main Heading Area (ABOUT + SVG + JETOUR) -->
         <div class="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-10">
             <!-- ABOUT Text -->
-            <span class="text-[#39aeb2] text-[18px] md:text-[26px] font-normal leading-[34px] tracking-widest uppercase">
+            <span class="text-[#39aeb2] text-lg md:text-2xl font-normal leading-[34px] tracking-widest uppercase">
                 ABOUT
             </span>
 
@@ -35,15 +35,11 @@
                 </svg>
             </div>
 
-            <!-- JETOUR Text -->
-            <span class="text-white text-[18px] md:text-[26px] font-normal leading-[34px] tracking-[0.3em] uppercase">
-                JETOUR
-            </span>
         </div>
 
         <!-- Vision Text Area -->
         <div class="space-y-4 max-w-3xl">
-            <h2 class="text-white text-xl md:text-3xl font-bold tracking-wider uppercase">
+            <h2 class="text-white text-xl md:text-3xl font-normal tracking-wider uppercase">
                 Brand Vision
             </h2>
             <p class="text-white text-[18px] md:text-[26px] font-normal leading-[34px]">
