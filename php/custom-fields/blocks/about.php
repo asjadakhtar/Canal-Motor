@@ -67,29 +67,29 @@
     
     <!-- Background Image Logic -->
     <div class="absolute inset-0 z-0">
-        <!-- Mobile Image: Sirf 640px se niche dikhegi -->
+        <!-- Mobile Image: 640px se niche -->
         <img 
             src="https://mintcream-spoonbill-317228.hostingersite.com/wp-content/uploads/2026/01/p2_m.webp" 
             alt="JETOUR Mobile Background" 
             class="block sm:hidden w-full h-full object-cover"
         />
 
-        <!-- Desktop Image: 640px aur us se upar dikhegi -->
+        <!-- Desktop Image: 640px se upar -->
         <img 
             src="https://mintcream-spoonbill-317228.hostingersite.com/wp-content/uploads/2026/01/p2.webp" 
             alt="JETOUR Desktop Background" 
             class="hidden sm:block w-full h-full object-cover"
         />
 
-        <!-- Dark Overlay: Text ko clear dikhane ke liye -->
+        <!-- Dark Overlay -->
         <div class="absolute inset-0 bg-black/30 md:bg-black/20"></div>
     </div>
 
-    <!-- Content Area -->
-    <div class="relative z-10 text-center px-6 max-w-6xl mx-auto flex flex-col items-center gap-8 md:gap-12">
+    <!-- Content Area: Yahan -translate-y-16 add kiya hai upar karne ke liye -->
+    <div class="relative z-10 text-center px-6 max-w-6xl mx-auto flex flex-col items-center gap-8 md:gap-12 -translate-y-16 md:-translate-y-24 transition-transform duration-700">
         
         <!-- Main Heading -->
-        <h1 class="text-white text-4xl md:text-7xl font-medium tracking-tight">
+        <h1 class="text-white text-4xl md:text-6xl font-medium tracking-tight">
             JETOUR Overview
         </h1>
 
