@@ -36,10 +36,10 @@
 
        
         <div class="max-w-4xl px-4">
-          <h2 class="text-white text-2xl md:text-4xl font-normal tracking-[0.2em] uppercase">
+          <h2 class="text-white text-2xl md:text-4xl font-normal">
             Brand Vision
           </h2>
-          <p class="text-white text-xl md:text-3xl font-normal leading-relaxed tracking-wide italic">
+          <p class="text-white text-xl md:text-3xl font-normal leading-relaxed tracking-wide">
             Become the World's Leading Hybrid Off-Road Brand
           </p>
         </div>
