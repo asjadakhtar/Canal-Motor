@@ -1,30 +1,32 @@
-<section class="relative h-screen w-full flex flex-col items-center justify-center overflow-hidden font-sans">
+<!-- Height ko 90vh kar diya gaya hai aur corners ko thoda round kiya hai -->
+<section class="relative h-[90vh] w-full mx-auto mt-4 flex flex-col items-center justify-center overflow-hidden rounded-3xl shadow-2xl">
     
-    <!-- Background Image -->
+    <!-- Background Image - Yeh container ke 90% hisse mein hi rahegi -->
     <div class="absolute inset-0 z-0">
         <img 
             src="https://mintcream-spoonbill-317228.hostingersite.com/wp-content/uploads/2026/01/p1.webp" 
             alt="Forest background" 
             class="w-full h-full object-cover"
         />
-        <!-- Dark Overlay taake text clear nazar aaye -->
+        <!-- Overlay -->
         <div class="absolute inset-0 bg-black/20"></div>
     </div>
 
     <!-- Content Container -->
-    <div class="relative z-10 text-center px-4 flex flex-col items-center gap-10">
+    <div class="relative z-10 text-center px-4 flex flex-col items-center gap-6 md:gap-10">
         
-        <!-- Main Heading Area (ABOUT + SVG + JETOUR) -->
+        <!-- Main Heading Area (ABOUT + SVG Logo) -->
         <div class="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-10">
             <!-- ABOUT Text -->
-            <span class="text-[#39aeb2] text-lg md:text-8xl font-normal leading-[34px] tracking-widest uppercase">
+            <!-- Size ko 8xl se thoda adjust kiya hai taake 90% height mein fit bethe -->
+            <span class="text-[#39aeb2] text-4xl md:text-7xl font-normal tracking-widest uppercase">
                 ABOUT
             </span>
 
-            <!-- SVG Logo (Jo aapne dia tha) -->
-            <div class="w-[320px] md:w-[611px] h-auto">
+            <!-- SVG Logo -->
+            <div class="w-[200px] md:w-[450px] h-auto">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 211 20" class="w-full h-full">
-                    <g fill="white"> <!-- Maine fill white rakha hai background ke liye -->
+                    <g fill="white">
                         <path d="M133.042 15.7927C133.042 15.8499 132.998 15.8935 132.941 15.8935H113.709C113.651 15.8935 113.605 15.8499 113.605 15.7927V4.21124C113.605 4.15405 113.651 4.11048 113.709 4.11048H132.941C132.998 4.11048 133.042 4.15405 133.042 4.21124V15.7927ZM136.785 0.00398898H109.862C108.637 0.00398898 107.64 0.997935 107.64 2.22335V17.7779C107.64 19.0061 108.637 20 109.862 20H136.785C138.013 20 139.007 19.0061 139.007 17.7779V2.22335C139.007 0.997935 138.013 0.00398898 136.785 0.00398898Z"/>
                         <path d="M102.124 0.00398898H71.5467C71.435 0.00398898 71.3479 0.0938523 71.3479 0.205501V3.90897C71.3479 4.0179 71.435 4.11048 71.5467 4.11048H83.7519C83.8091 4.11048 83.8527 4.15405 83.8527 4.21124V19.7985C83.8527 19.9074 83.9452 20 84.0569 20H89.6163C89.728 20 89.8178 19.9074 89.8178 19.7985V4.21124C89.8178 4.15405 89.8641 4.11048 89.9213 4.11048H102.124C102.235 4.11048 102.325 4.0179 102.325 3.90897V0.205501C102.325 0.0938523 102.235 0.00398898 102.124 0.00398898Z"/>
                         <path d="M174.41 0.00398898H168.848C168.736 0.00398898 168.647 0.0938523 168.647 0.205501V15.7927C168.647 15.8499 168.603 15.8935 168.546 15.8935H150.381C150.324 15.8935 150.28 15.8499 150.28 15.7927V0.205501C150.28 0.0938523 150.19 0.00398898 150.076 0.00398898H144.516C144.405 0.00398898 144.315 0.0938523 144.315 0.205501V17.7806C144.315 19.0061 145.309 20 146.534 20H172.39C173.618 20 174.612 19.0061 174.612 17.7806V0.205501C174.612 0.0938523 174.522 0.00398898 174.41 0.00398898Z"/>
@@ -34,7 +36,6 @@
                     </g>
                 </svg>
             </div>
-
         </div>
 
         <!-- Vision Text Area -->
@@ -42,7 +43,7 @@
             <h2 class="text-white text-xl md:text-3xl font-normal tracking-wider uppercase">
                 Brand Vision
             </h2>
-            <p class="text-white text-[18px] md:text-[26px] font-normal leading-[34px]">
+            <p class="text-white text-[18px] md:text-[26px] font-normal leading-relaxed">
                 Become the World's Leading Hybrid Off-Road Brand
             </p>
         </div>
