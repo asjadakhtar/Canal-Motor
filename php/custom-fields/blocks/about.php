@@ -57,3 +57,53 @@
     </div>
 
 </section>
+
+
+
+
+
+
+<section class="relative h-screen w-full flex flex-col items-center justify-center overflow-hidden">
+    
+    <!-- Background Image Logic -->
+    <div class="absolute inset-0 z-0">
+        <!-- Mobile Image: Sirf 640px se niche dikhegi -->
+        <img 
+            src="https://mintcream-spoonbill-317228.hostingersite.com/wp-content/uploads/2026/01/p2_m.webp" 
+            alt="JETOUR Mobile Background" 
+            class="block sm:hidden w-full h-full object-cover"
+        />
+
+        <!-- Desktop Image: 640px aur us se upar dikhegi -->
+        <img 
+            src="https://mintcream-spoonbill-317228.hostingersite.com/wp-content/uploads/2026/01/p2.webp" 
+            alt="JETOUR Desktop Background" 
+            class="hidden sm:block w-full h-full object-cover"
+        />
+
+        <!-- Dark Overlay: Text ko clear dikhane ke liye -->
+        <div class="absolute inset-0 bg-black/30 md:bg-black/20"></div>
+    </div>
+
+    <!-- Content Area -->
+    <div class="relative z-10 text-center px-6 max-w-6xl mx-auto flex flex-col items-center gap-8 md:gap-12">
+        
+        <!-- Main Heading -->
+        <h1 class="text-white text-4xl md:text-7xl font-medium tracking-tight">
+            JETOUR Overview
+        </h1>
+
+        <!-- Paragraphs Container -->
+        <div class="flex flex-col gap-6 md:gap-10 max-w-5xl">
+            <p class="text-white text-lg md:text-2xl font-normal leading-relaxed md:leading-snug tracking-wide">
+                JETOUR was born with global vision. Launched in January, 2018, JETOUR is an emerging Chinese automotive brand in response to market trends and consumer demands.
+            </p>
+
+            <p class="text-white text-lg md:text-2xl font-normal leading-relaxed md:leading-snug tracking-wide">
+                With innovative products, unmatched performance, and user-oriented approach, JETOUR is quickly reshaping global automotive landscape.
+            </p>
+        </div>
+
+    </div>
+
+</section>
