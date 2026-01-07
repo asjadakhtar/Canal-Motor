@@ -19,8 +19,8 @@ if (!defined('ABSPATH')) {
 // Theme asset manifest - only reference files that exist in the theme to avoid leaks
 define('THEME_ASSETS', [
     'css' => [
-        'hando' => [
-            'path' => '/assets/fonts/hando/stylesheet.css',
+        'roboto' => [
+            'path' => '/assets/fonts/roboto/stylesheet.css',
             'deps' => []
         ],
         'tailwind-output' => [
