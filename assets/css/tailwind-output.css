@@ -453,6 +453,12 @@
   .w-\[120px\] {
     width: 120px;
   }
+  .w-\[220px\] {
+    width: 220px;
+  }
+  .w-\[320px\] {
+    width: 320px;
+  }
   .w-\[1047px\] {
     width: 1047px;
   }
@@ -705,6 +711,12 @@
   }
   .bg-black {
     background-color: var(--color-black);
+  }
+  .bg-black\/20 {
+    background-color: color-mix(in srgb, #000 20%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-black) 20%, transparent);
+    }
   }
   .bg-black\/30 {
     background-color: color-mix(in srgb, #000 30%, transparent);
@@ -1377,6 +1389,11 @@
   .md\:w-\[550px\] {
     @media (width >= 48rem) {
       width: 550px;
+    }
+  }
+  .md\:w-\[611px\] {
+    @media (width >= 48rem) {
+      width: 611px;
     }
   }
   .md\:w-auto {

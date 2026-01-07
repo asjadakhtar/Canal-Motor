@@ -8,7 +8,7 @@
             class="w-full h-full object-cover"
         />
         <!-- Dark Overlay taake text clear nazar aaye -->
-        <div class="absolute inset-0 bg-black/40"></div>
+        <div class="absolute inset-0 bg-black/20"></div>
     </div>
 
     <!-- Content Container -->
@@ -17,12 +17,12 @@
         <!-- Main Heading Area (ABOUT + SVG + JETOUR) -->
         <div class="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-10">
             <!-- ABOUT Text -->
-            <span class="text-[#39aeb2] text-lg md:text-2xl font-normal leading-[34px] tracking-widest uppercase">
+            <span class="text-[#39aeb2] text-lg md:text-8xl font-normal leading-[34px] tracking-widest uppercase">
                 ABOUT
             </span>
 
             <!-- SVG Logo (Jo aapne dia tha) -->
-            <div class="w-[120px] md:w-[211px] h-auto">
+            <div class="w-[320px] md:w-[611px] h-auto">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 211 20" class="w-full h-full">
                     <g fill="white"> <!-- Maine fill white rakha hai background ke liye -->
                         <path d="M133.042 15.7927C133.042 15.8499 132.998 15.8935 132.941 15.8935H113.709C113.651 15.8935 113.605 15.8499 113.605 15.7927V4.21124C113.605 4.15405 113.651 4.11048 113.709 4.11048H132.941C132.998 4.11048 133.042 4.15405 133.042 4.21124V15.7927ZM136.785 0.00398898H109.862C108.637 0.00398898 107.64 0.997935 107.64 2.22335V17.7779C107.64 19.0061 108.637 20 109.862 20H136.785C138.013 20 139.007 19.0061 139.007 17.7779V2.22335C139.007 0.997935 138.013 0.00398898 136.785 0.00398898Z"/>
