@@ -112,7 +112,7 @@
 
 
 
-<section class="relative min-h-screen w-full flex flex-col items-center justify-center overflow-hidden text-white font-sans">
+<section class="relative min-h-screen w-full flex flex-col items-center justify-center overflow-hidden text-white">
     
     <!-- Background Logic -->
     <div class="absolute inset-0 z-0">
@@ -125,7 +125,7 @@
              class="hidden sm:block w-full h-full object-cover" alt="desktop bg">
              
         <!-- Overlay for readability -->
-        <div class="absolute inset-0 bg-black/40"></div>
+        <div class="absolute inset-0 bg-black/20"></div>
     </div>
 
     <!-- Content Container (Shifted Upwards) -->
@@ -136,7 +136,7 @@
             <h1 class="text-3xl md:text-6xl font-medium tracking-wide">
                 JETOUR, Born for Travel
             </h1>
-            <p class="max-w-4xl mx-auto text-sm md:text-xl font-light leading-relaxed opacity-90">
+            <p class="max-w-6xl mx-auto text-sm md:text-2xl font-normal leading-relaxed">
                 Guided by 'Travel+' strategy, JETOUR makes cars from the perspective of users, with thinking of travel industry and capabilities of auto industry.
             </p>
         </div>
@@ -146,23 +146,23 @@
             
             <!-- Left Group: Travel+ Product -->
             <div class="flex flex-col items-center">
-                <h2 class="text-xl md:text-2xl font-normal mb-8 border-b border-white/30 pb-2 w-fit">Travel+ Product</h2>
+                <h2 class="text-xl md:text-3xl font-normal mb-8 pb-2 w-fit">Travel+ Product</h2>
                 <div class="grid grid-cols-2 md:grid-cols-4 w-full">
                     <div class="border-r border-white/20 px-2 mb-6 md:mb-0">
-                        <h3 class="text-lg md:text-xl font-bold">Off-road</h3>
-                        <p class="text-[10px] md:text-xs uppercase tracking-tighter opacity-80">All-terrain</p>
+                        <h3 class="text-lg md:text-2xl font-meduim">Off-road</h3>
+                        <p class="text-base tracking-tighter">All-terrain</p>
                     </div>
                     <div class="md:border-r border-white/20 px-2 mb-6 md:mb-0">
-                        <h3 class="text-lg md:text-xl font-bold">Space</h3>
-                        <p class="text-[10px] md:text-xs uppercase tracking-tighter opacity-80">Big space</p>
+                        <h3 class="text-lg md:text-2xl font-meduim">Space</h3>
+                        <p class="text-base tracking-tighter">Big space</p>
                     </div>
                     <div class="border-r border-white/20 px-2">
-                        <h3 class="text-lg md:text-xl font-bold">Intelligence</h3>
-                        <p class="text-[10px] md:text-xs uppercase tracking-tighter opacity-80">Smart Control</p>
+                        <h3 class="text-lg md:text-2xl font-meduim">Intelligence</h3>
+                        <p class="text-base tracking-tighter">Smart Control</p>
                     </div>
                     <div class="px-2">
-                        <h3 class="text-lg md:text-xl font-bold">Health</h3>
-                        <p class="text-[10px] md:text-xs uppercase tracking-tighter opacity-80">Environment-friendly</p>
+                        <h3 class="text-lg md:text-2xl font-meduim">Health</h3>
+                        <p class="text-base tracking-tighter">Environment-friendly</p>
                     </div>
                 </div>
             </div>
