@@ -142,7 +142,7 @@
         </div>
 
         <!-- Middle Grid Section (Travel+ Product & Lifestyle) -->
-        <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-4 mb-16 md:mb-24">
+        <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-20 md:gap-4 mb-16 md:mb-24">
             
             <!-- Left Group: Travel+ Product -->
             <div class="flex flex-col items-center">
