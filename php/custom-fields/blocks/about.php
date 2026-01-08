@@ -129,11 +129,11 @@
     </div>
 
     <!-- Content Container (Shifted Upwards) -->
-    <div class="relative z-10 w-full max-w-9xl mx-auto px-6 py-20 flex flex-col items-center text-center -translate-y-10 md:-translate-y-16">
+    <div class="relative z-10 w-full max-w-8xl mx-auto px-6 py-20 flex flex-col items-center text-center">
         
         <!-- Top Header Section -->
         <div class="mb-12 md:mb-32">
-            <h1 class="text-3xl md:text-6xl font-medium tracking-wide">
+            <h1 class="text-3xl md:text-6xl font-medium tracking-wide mb-8">
                 JETOUR, Born for Travel
             </h1>
             <p class="max-w-6xl mx-auto text-sm md:text-2xl font-normal leading-relaxed">
@@ -169,7 +169,7 @@
 
             <!-- Right Group: Travel+ Lifestyle -->
             <div class="flex flex-col items-center">
-                <h2 class="text-xl md:text-2xl font-normal mb-8 pb-2 w-fit">Travel+ Lifestyle</h2>
+                <h2 class="text-xl md:text-3xl font-normal mb-8 pb-2 w-fit">Travel+ Lifestyle</h2>
                 <div class="grid grid-cols-2 md:grid-cols-4 w-full">
                     <div class="border-r border-white/20 px-2 mb-6 md:mb-0">
                         <h3 class="text-lg md:text-2xl font-meduim mb-4">+Accessory</h3>
