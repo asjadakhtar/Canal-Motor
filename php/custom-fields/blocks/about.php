@@ -129,7 +129,7 @@
     </div>
 
     <!-- Content Container (Shifted Upwards) -->
-    <div class="relative z-10 w-full max-w-7xl mx-auto px-6 py-20 flex flex-col items-center text-center">
+    <div class="relative z-10 w-full max-w-8xl mx-auto px-6 py-20 flex flex-col items-center text-center">
         
         <!-- Top Header Section -->
         <div class="mb-12 md:mb-32">
