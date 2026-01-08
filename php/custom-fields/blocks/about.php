@@ -148,20 +148,20 @@
             <div class="flex flex-col items-center">
                 <h2 class="text-xl md:text-3xl font-normal mb-8 pb-2 w-fit">Travel+ Product</h2>
                 <div class="grid grid-cols-2 md:grid-cols-4 w-full">
-                    <div class="border-r border-white/20 px-2 mb-6 md:mb-0">
-                        <h3 class="text-lg md:text-2xl font-meduim mb-4">Off-road</h3>
+                    <div class="border-r border-white/40 px-2 mb-6 md:mb-0">
+                        <h3 class="text-lg md:text-2xl font-meduim mb-2">Off-road</h3>
                         <p class="text-base tracking-tighter">All-terrain</p>
                     </div>
-                    <div class="md:border-r border-white/20 px-2 mb-6 md:mb-0">
-                        <h3 class="text-lg md:text-2xl font-meduim mb-4">Space</h3>
+                    <div class="md:border-r border-white/40 px-2 mb-6 md:mb-0">
+                        <h3 class="text-lg md:text-2xl font-meduim mb-2">Space</h3>
                         <p class="text-base tracking-tighter">Big space</p>
                     </div>
                     <div class="border-r border-white/20 px-2">
-                        <h3 class="text-lg md:text-2xl font-meduim mb-4">Intelligence</h3>
+                        <h3 class="text-lg md:text-2xl font-meduim mb-2">Intelligence</h3>
                         <p class="text-base tracking-tighter">Smart Control</p>
                     </div>
                     <div class="px-2">
-                        <h3 class="text-lg md:text-2xl font-meduim mb-4">Health</h3>
+                        <h3 class="text-lg md:text-2xl font-meduim mb-2">Health</h3>
                         <p class="text-base tracking-tighter">Environment-friendly</p>
                     </div>
                 </div>
@@ -172,19 +172,19 @@
                 <h2 class="text-xl md:text-3xl font-normal mb-8 pb-2 w-fit">Travel+ Lifestyle</h2>
                 <div class="grid grid-cols-2 md:grid-cols-4 w-full">
                     <div class="border-r border-white/20 px-2 mb-6 md:mb-0">
-                        <h3 class="text-lg md:text-2xl font-meduim mb-4">+Accessory</h3>
+                        <h3 class="text-lg md:text-2xl font-meduim mb-2">+Accessory</h3>
                         <p class="text-base tracking-tighter">High Quality</p>
                     </div>
                     <div class="md:border-r border-white/20 px-2 mb-6 md:mb-0">
-                        <h3 class="text-lg md:text-2xl font-meduim mb-4">+Benefit</h3>
+                        <h3 class="text-lg md:text-2xl font-meduim mb-2">+Benefit</h3>
                         <p class="text-base tracking-tighter">Various</p>
                     </div>
                     <div class="border-r border-white/20 px-2">
-                        <h3 class="text-lg md:text-2xl font-meduim mb-4">+Station</h3>
+                        <h3 class="text-lg md:text-2xl font-meduim mb-2">+Station</h3>
                         <p class="text-base tracking-tighter">Multifunctional</p>
                     </div>
                     <div class="px-2">
-                        <h3 class="text-lg md:text-2xl font-meduim mb-4">+Refit</h3>
+                        <h3 class="text-lg md:text-2xl font-meduim mb-2">+Refit</h3>
                         <p class="text-base tracking-tighter">Customized</p>
                     </div>
                 </div>
