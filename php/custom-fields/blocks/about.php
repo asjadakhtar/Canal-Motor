@@ -112,7 +112,8 @@
 
 
 
-<section class="bg-white py-16 md:py-24 px-6">
+<section class="bg-white py-16 md:py-24 px-6 gap-20">
+
     <div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-10 lg:gap-16">
         
         <!-- Left Side: Image Container -->
