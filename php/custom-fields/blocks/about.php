@@ -172,20 +172,20 @@
                 <h2 class="text-xl md:text-2xl font-normal mb-8 border-b border-white/30 pb-2 w-fit">Travel+ Lifestyle</h2>
                 <div class="grid grid-cols-2 md:grid-cols-4 w-full">
                     <div class="border-r border-white/20 px-2 mb-6 md:mb-0">
-                        <h3 class="text-lg md:text-xl font-bold">+Accessory</h3>
-                        <p class="text-[10px] md:text-xs uppercase tracking-tighter opacity-80">High Quality</p>
+                        <h3 class="text-lg md:text-2xl font-meduim">+Accessory</h3>
+                        <p class="text-base tracking-tighter">High Quality</p>
                     </div>
                     <div class="md:border-r border-white/20 px-2 mb-6 md:mb-0">
-                        <h3 class="text-lg md:text-xl font-bold">+Benefit</h3>
-                        <p class="text-[10px] md:text-xs uppercase tracking-tighter opacity-80">Various</p>
+                        <h3 class="text-lg md:text-2xl font-meduim">+Benefit</h3>
+                        <p class="text-base tracking-tighter">Various</p>
                     </div>
                     <div class="border-r border-white/20 px-2">
-                        <h3 class="text-lg md:text-xl font-bold">+Station</h3>
-                        <p class="text-[10px] md:text-xs uppercase tracking-tighter opacity-80">Multifunctional</p>
+                        <h3 class="text-lg md:text-2xl font-meduim">+Station</h3>
+                        <p class="text-base tracking-tighter">Multifunctional</p>
                     </div>
                     <div class="px-2">
-                        <h3 class="text-lg md:text-xl font-bold">+Refit</h3>
-                        <p class="text-[10px] md:text-xs uppercase tracking-tighter opacity-80">Customized</p>
+                        <h3 class="text-lg md:text-2xl font-meduim">+Refit</h3>
+                        <p class="text-base tracking-tighter">Customized</p>
                     </div>
                 </div>
             </div>
@@ -193,8 +193,8 @@
         </div>
 
         <!-- Bottom Paragraph Section -->
-        <div class="max-w-5xl">
-            <p class="text-sm md:text-2xl font-normal leading-relaxed tracking-wide opacity-95">
+        <div class="max-w-7xl">
+            <p class="text-sm md:text-2xl font-normal leading-relaxed tracking-wide">
                 We extend our product development philosophy to the entire ecology chain in travel scenarios, aiming to be the auto brand with the deepest understandings of travel.
             </p>
         </div>
