@@ -143,9 +143,10 @@
             </div>
 
         </div>
+      
+    </div>
 
-
-
+    <div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-10 lg:gap-16">
 
         <!-- Left Side: Image Container -->
         <div class="w-full lg:w-2/5 flex flex-col justify-center">
@@ -168,14 +169,13 @@
         </div>
         
         <!-- Right Side: Text Content Area -->
-         <div class="w-full lg:w-3/5">
+        <div class="w-full lg:w-3/5">
             <img 
                 src="https://mintcream-spoonbill-317228.hostingersite.com/wp-content/uploads/2026/01/p3_2.webp" 
                 alt="JETOUR Global Layout" 
                 class="w-full h-auto object-cover shadow-sm"
             />
         </div>
-      
     </div>
 </section>
 
