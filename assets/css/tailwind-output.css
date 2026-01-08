@@ -1350,6 +1350,11 @@
       margin-bottom: calc(var(--spacing) * 24);
     }
   }
+  .md\:mb-32 {
+    @media (width >= 48rem) {
+      margin-bottom: calc(var(--spacing) * 32);
+    }
+  }
   .md\:w-1\/2 {
     @media (width >= 48rem) {
       width: calc(1/2 * 100%);

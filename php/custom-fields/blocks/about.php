@@ -132,7 +132,7 @@
     <div class="relative z-10 w-full max-w-7xl mx-auto px-6 py-20 flex flex-col items-center text-center -translate-y-10 md:-translate-y-16">
         
         <!-- Top Header Section -->
-        <div class="mb-12 md:mb-20 space-y-4 md:space-y-8">
+        <div class="mb-12 md:mb-32">
             <h1 class="text-3xl md:text-6xl font-medium tracking-wide">
                 JETOUR, Born for Travel
             </h1>
@@ -142,7 +142,7 @@
         </div>
 
         <!-- Middle Grid Section (Travel+ Product & Lifestyle) -->
-        <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-20 md:gap-4 mb-16 md:mb-24">
+        <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-20 mb-16 md:mb-32">
             
             <!-- Left Group: Travel+ Product -->
             <div class="flex flex-col items-center">
@@ -169,7 +169,7 @@
 
             <!-- Right Group: Travel+ Lifestyle -->
             <div class="flex flex-col items-center">
-                <h2 class="text-xl md:text-2xl font-normal mb-8 border-b border-white/30 pb-2 w-fit">Travel+ Lifestyle</h2>
+                <h2 class="text-xl md:text-2xl font-normal mb-8 pb-2 w-fit">Travel+ Lifestyle</h2>
                 <div class="grid grid-cols-2 md:grid-cols-4 w-full">
                     <div class="border-r border-white/20 px-2 mb-6 md:mb-0">
                         <h3 class="text-lg md:text-2xl font-meduim">+Accessory</h3>
@@ -194,7 +194,7 @@
 
         <!-- Bottom Paragraph Section -->
         <div class="max-w-7xl">
-            <p class="text-sm md:text-2xl font-normal leading-relaxed tracking-wide">
+            <p class="text-base md:text-2xl font-normal leading-relaxed tracking-wide">
                 We extend our product development philosophy to the entire ecology chain in travel scenarios, aiming to be the auto brand with the deepest understandings of travel.
             </p>
         </div>
