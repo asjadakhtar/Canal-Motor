@@ -144,6 +144,38 @@
 
         </div>
 
+
+
+
+        <!-- Left Side: Image Container -->
+        <div class="w-full lg:w-2/5 flex flex-col justify-center">
+            
+            <!-- Heading -->
+            <h2 class="text-black text-3xl md:text-5xl font-medium mb-6 tracking-tight">
+                Global Layout
+            </h2>
+
+            <!-- Paragraph -->
+            <div class="space-y-4">
+                <p class="text-gray-600 text-lg md:text-xl leading-relaxed font-light">
+                    JETOUR brand has continuously evolved, progressing through Stage 1.0 represented by travel SUV like X70, X90, and DASHING; Stage 2.0 marked by comfortable off-road vehicles such as T1 and T2. 
+                </p>
+                <p class="text-gray-600 text-lg md:text-xl leading-relaxed font-light">
+                    Now, it is fully entering Stage 3.0, represented by professional off-road vehicles like G700, G900, and F700, positioning itself within the international luxury off-road segment.
+                </p>
+            </div>
+
+        </div>
+        
+        <!-- Right Side: Text Content Area -->
+         <div class="w-full lg:w-3/5">
+            <img 
+                src="https://mintcream-spoonbill-317228.hostingersite.com/wp-content/uploads/2026/01/p3_2.webp" 
+                alt="JETOUR Global Layout" 
+                class="w-full h-auto object-cover shadow-sm"
+            />
+        </div>
+      
     </div>
 </section>
 
