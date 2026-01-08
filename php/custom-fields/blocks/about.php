@@ -107,3 +107,98 @@
     </div>
 
 </section>
+
+
+
+
+
+<section class="relative min-h-screen w-full flex flex-col items-center justify-center overflow-hidden text-white font-sans">
+    
+    <!-- Background Logic -->
+    <div class="absolute inset-0 z-0">
+        <!-- Mobile Background -->
+        <img src="https://mintcream-spoonbill-317228.hostingersite.com/wp-content/uploads/2026/01/p4_m.webp" 
+             class="block sm:hidden w-full h-full object-cover" alt="mobile bg">
+        
+        <!-- Desktop Background -->
+        <img src="https://mintcream-spoonbill-317228.hostingersite.com/wp-content/uploads/2026/01/p4.webp" 
+             class="hidden sm:block w-full h-full object-cover" alt="desktop bg">
+             
+        <!-- Overlay for readability -->
+        <div class="absolute inset-0 bg-black/40"></div>
+    </div>
+
+    <!-- Content Container (Shifted Upwards) -->
+    <div class="relative z-10 w-full max-w-7xl mx-auto px-6 py-20 flex flex-col items-center text-center -translate-y-10 md:-translate-y-16">
+        
+        <!-- Top Header Section -->
+        <div class="mb-12 md:mb-20 space-y-4 md:space-y-8">
+            <h1 class="text-3xl md:text-6xl font-medium tracking-wide">
+                JETOUR, Born for Travel
+            </h1>
+            <p class="max-w-4xl mx-auto text-sm md:text-xl font-light leading-relaxed opacity-90">
+                Guided by 'Travel+' strategy, JETOUR makes cars from the perspective of users, with thinking of travel industry and capabilities of auto industry.
+            </p>
+        </div>
+
+        <!-- Middle Grid Section (Travel+ Product & Lifestyle) -->
+        <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-4 mb-16 md:mb-24">
+            
+            <!-- Left Group: Travel+ Product -->
+            <div class="flex flex-col items-center">
+                <h2 class="text-xl md:text-2xl font-normal mb-8 border-b border-white/30 pb-2 w-fit">Travel+ Product</h2>
+                <div class="grid grid-cols-2 md:grid-cols-4 w-full">
+                    <div class="border-r border-white/20 px-2 mb-6 md:mb-0">
+                        <h3 class="text-lg md:text-xl font-bold">Off-road</h3>
+                        <p class="text-[10px] md:text-xs uppercase tracking-tighter opacity-80">All-terrain</p>
+                    </div>
+                    <div class="md:border-r border-white/20 px-2 mb-6 md:mb-0">
+                        <h3 class="text-lg md:text-xl font-bold">Space</h3>
+                        <p class="text-[10px] md:text-xs uppercase tracking-tighter opacity-80">Big space</p>
+                    </div>
+                    <div class="border-r border-white/20 px-2">
+                        <h3 class="text-lg md:text-xl font-bold">Intelligence</h3>
+                        <p class="text-[10px] md:text-xs uppercase tracking-tighter opacity-80">Smart Control</p>
+                    </div>
+                    <div class="px-2">
+                        <h3 class="text-lg md:text-xl font-bold">Health</h3>
+                        <p class="text-[10px] md:text-xs uppercase tracking-tighter opacity-80">Environment-friendly</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Group: Travel+ Lifestyle -->
+            <div class="flex flex-col items-center">
+                <h2 class="text-xl md:text-2xl font-normal mb-8 border-b border-white/30 pb-2 w-fit">Travel+ Lifestyle</h2>
+                <div class="grid grid-cols-2 md:grid-cols-4 w-full">
+                    <div class="border-r border-white/20 px-2 mb-6 md:mb-0">
+                        <h3 class="text-lg md:text-xl font-bold">+Accessory</h3>
+                        <p class="text-[10px] md:text-xs uppercase tracking-tighter opacity-80">High Quality</p>
+                    </div>
+                    <div class="md:border-r border-white/20 px-2 mb-6 md:mb-0">
+                        <h3 class="text-lg md:text-xl font-bold">+Benefit</h3>
+                        <p class="text-[10px] md:text-xs uppercase tracking-tighter opacity-80">Various</p>
+                    </div>
+                    <div class="border-r border-white/20 px-2">
+                        <h3 class="text-lg md:text-xl font-bold">+Station</h3>
+                        <p class="text-[10px] md:text-xs uppercase tracking-tighter opacity-80">Multifunctional</p>
+                    </div>
+                    <div class="px-2">
+                        <h3 class="text-lg md:text-xl font-bold">+Refit</h3>
+                        <p class="text-[10px] md:text-xs uppercase tracking-tighter opacity-80">Customized</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Bottom Paragraph Section -->
+        <div class="max-w-5xl">
+            <p class="text-sm md:text-2xl font-normal leading-relaxed tracking-wide opacity-95">
+                We extend our product development philosophy to the entire ecology chain in travel scenarios, aiming to be the auto brand with the deepest understandings of travel.
+            </p>
+        </div>
+
+    </div>
+
+</section>
