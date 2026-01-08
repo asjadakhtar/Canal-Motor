@@ -27,7 +27,7 @@
         <!-- Header Area: About + Logo -->
         <div class="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-10">
             
-            <span class="text-[#39aeb2] text-3xl sm:text-4xl md:text-7xl font-light tracking-[0.2em] uppercase select-none">
+            <span class="text-3xl sm:text-4xl md:text-7xl font-normal tracking-[0.2em] uppercase select-none">
                 ABOUT
             </span>
 
