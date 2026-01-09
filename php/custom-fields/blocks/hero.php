@@ -81,14 +81,14 @@
         <!-- Slide 1.2 -->
         <div class="slide relative">
           <img
-            src="pics/x70Plus_m.png"
+            src="https://mintcream-spoonbill-317228.hostingersite.com/wp-content/uploads/2026/01/x70Plus_m.webp"
             alt="Jetour X70 Plus Mobile"
             class="w-full h-screen block sm:hidden object-cover object-center"
           />
 
           <!-- DESKTOP IMAGE: Hidden below 640px, Visible from 640px up -->
           <img
-            src="pics/x70Plusbanner.png"
+            src="https://mintcream-spoonbill-317228.hostingersite.com/wp-content/uploads/2026/01/x70Plusbanner.webp"
             alt="Jetour Dashing Desktop"
             class="w-full h-screen hidden sm:block object-cover object-center"
           />
