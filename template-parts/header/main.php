@@ -409,7 +409,7 @@
                 <span class="plus-icon text-gray-400 font-light">+</span>
               </button>
               <div
-                class="accordion-content hidden flex flex-col space-y-5 pt-6 px-2 text-lg font-medium text-black"
+                class="accordion-content flex-col space-y-5 pt-6 px-2 text-lg font-medium text-black"
               >
                 <a href="#">About JETOUR</a>
                 <a href="#">Technology</a>
@@ -428,7 +428,7 @@
                 <span class="plus-icon text-gray-400 font-light">+</span>
               </button>
               <div
-                class="accordion-content hidden flex flex-col space-y-5 pt-6 px-2 text-lg font-medium text-black"
+                class="accordion-content flex-col space-y-5 pt-6 px-2 text-lg font-medium text-black"
               >
                 <a href="#">Pricing</a>
                 <a href="#">Contact Us</a>
