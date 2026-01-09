@@ -1,80 +1,112 @@
-<section class="relative sm:h-[80vh] h-[100vh] w-full flex items-center justify-center text-center overflow-hidden px-4 sm:px-6 lg:px-8">
-
-    <!-- Background Video -->
-    <video
-        class="absolute z-[-1] w-auto min-w-full min-h-full max-w-none"
-        autoplay
-        loop
-        muted
-        playsinline>
-        <source src="https://aminomarketing.com/wp-content/uploads/2025/09/WhatsApp-Video-2025-09-01-at-4.18.54-PM.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-
-    <!-- Video Overlay -->
-    <div class="absolute top-0 left-0 w-full h-full bg-[#0d0d0d]/80"></div>
-
-    <!-- Content Container (Heading & Buttons Only) -->
-    <div class="relative z-10 max-w-4xl mx-auto text-white -mt-10 sm:mt-0"> <!-- Thoda upar shift kia taaki badges ke liye jagah banay -->
-        <!-- Main Heading -->
-        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-medium leading-tight mb-4">
-            Proven Marketing Strategies to Grow Peptide Brands Safely
-        </h1>
-
-        <!-- Subheading -->
-        <p class="text-base sm:text-lg lg:text-xl max-w-2xl mx-auto mb-8 text-gray-300">
-            From Meta Ads to SEO and web development, we make sure your peptide brand scales smoothly, with marketing systems that actually work
-        </p>
-
-        <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
-            <!-- Primary CTA Button -->
-            <a href="https://aminomarketing.com/calendly/"
-            class="group relative inline-block overflow-hidden rounded-lg bg-[#ff520e] px-5 py-[7px] text-base text-white transition-colors duration-500">
-                <span class="inline-block transition-transform duration-500 ease-in-out group-hover:-translate-y-full">
-                    Book a free consultation
-                </span>
-                <span class="absolute inset-0 flex items-center justify-center translate-y-full transition-transform duration-500 ease-in-out group-hover:translate-y-0">
-                    Book a free consultation
-                </span>
-            </a>
-
-            <!-- WhatsApp CTA Button -->
-            <a href="https://wa.me/13614188828" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            class="group relative inline-block overflow-hidden rounded-lg border border-white/20 px-5 py-[7px] text-base text-white transition-colors duration-500 hover:border-[#ff520e]"
-            data-text="+13614188828">
-                <span class="inline-block transition-transform duration-500 ease-in-out group-hover:-translate-y-[150%]">
-                    +13614188828
-                </span>
-                <span class="absolute top-0 left-0 flex h-full w-full translate-y-[150%] items-center justify-center transition-transform duration-500 ease-in-out group-hover:translate-y-0 text-[#ff520e]">
-                    +13614188828
-                </span>
-            </a>
+<div class="section">
+        <!-- Custom Navigation Arrows -->
+        <div
+          class="absolute z-50 inset-0 flex items-center justify-between px-5 pointer-events-none"
+        >
+          <button
+            id="prevArrow"
+            class="pointer-events-auto cursor-pointer bg-black/20 hover:bg-black/40 p-3 rounded-full transition"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="m15 18-6-6 6-6" />
+            </svg>
+          </button>
+          <button
+            id="nextArrow"
+            class="pointer-events-auto cursor-pointer bg-black/20 hover:bg-black/40 p-3 rounded-full transition"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="m9 18 6-6-6-6" />
+            </svg>
+          </button>
         </div>
-    </div>
 
-    <!-- NEW: Badges Section - Positioned at Bottom (Absolute) -->
+        <!-- Slide 1.1 -->
+        <div class="slide relative w-full h-screen overflow-hidden">
+          <!-- Image Switching Logic -->
 
-    <div class="absolute bottom-2 left-0 w-full z-20 px-2">
-        <div class="flex flex-wrap justify-center items-center gap-4 sm:gap-8 lg:gap-12">
-            
-            <img src="https://aminomarketing.com/wp-content/uploads/2025/11/006.png" 
-                alt="Badge 6" 
-                class="sm:h-28 h-22 w-auto object-contain transition-all duration-300 grayscale hover:grayscale-0 hover:scale-110">
+          <img
+            src="https://mintcream-spoonbill-317228.hostingersite.com/wp-content/uploads/2026/01/dashing_m.webp"
+            alt="Jetour Dashing Mobile"
+            class="w-full h-screen block sm:hidden object-cover object-center"
+          />
 
-            <img src="https://aminomarketing.com/wp-content/uploads/2025/11/005.png" 
-                alt="Badge 5" 
-                class="sm:h-28 h-22 w-auto object-contain transition-all duration-300 grayscale hover:grayscale-0 hover:scale-110">
-
-            <img src="https://aminomarketing.com/wp-content/uploads/2025/11/002.png" 
-                alt="Badge 2" 
-                class="sm:h-28 h-22 w-auto object-contain transition-all duration-300 grayscale hover:grayscale-0 hover:scale-110">
-
-            <img src="https://aminomarketing.com/wp-content/uploads/2025/11/001.png" 
-                alt="Badge 1" 
-                class="sm:h-28 h-22 w-auto object-contain transition-all duration-300 grayscale hover:grayscale-0 hover:scale-110">
+          <!-- DESKTOP IMAGE: Hidden below 640px, Visible from 640px up -->
+          <img
+            src="https://mintcream-spoonbill-317228.hostingersite.com/wp-content/uploads/2026/01/dashingbanner.webp"
+            alt="Jetour Dashing Desktop"
+            class="w-full h-screen hidden sm:block object-cover object-center"
+          />
+          <div
+            class="absolute inset-0 flex flex-col justify-end items-start px-8 pb-16 md:px-17.5 md:pb-30"
+          >
+            <div class="absolute bottom-20 left-10 md:bottom-30 md:left-17.5">
+              <h1 class="gsap-reveal text-white text-3xl font-medium">
+                JETOUR DASHING
+              </h1>
+              <p
+                class="gsap-reveal text-white text-4xl md:text-6xl pb-10 md:pb-12 font-medium mt-3"
+              >
+                STYLE MEETS PERFORMANCE
+              </p>
+              <a
+                href="#"
+                class="gsap-reveal button-reveal1 inline-block bg-white text-black text-base font-normal opacity-70 hover:opacity-100 py-4 px-12 md:py-5 md:px-32 rounded-sm"
+              >
+                Explore
+              </a>
+            </div>
+          </div>
         </div>
-    </div>
+        <!-- Slide 1.2 -->
+        <div class="slide relative">
+          <img
+            src="pics/x70Plus_m.png"
+            alt="Jetour X70 Plus Mobile"
+            class="w-full h-screen block sm:hidden object-cover object-center"
+          />
 
-</section>
+          <!-- DESKTOP IMAGE: Hidden below 640px, Visible from 640px up -->
+          <img
+            src="pics/x70Plusbanner.png"
+            alt="Jetour Dashing Desktop"
+            class="w-full h-screen hidden sm:block object-cover object-center"
+          />
+          <div class="absolute bottom-20 left-10 md:bottom-30 md:left-17.5">
+            <h1 class="gsap-reveal text-white text-3xl font-medium">
+              JETOUR X70 PLUS
+            </h1>
+            <p
+              class="gsap-reveal text-white text-4xl md:text-6xl pb-10 md:pb-12 font-medium mt-3"
+            >
+              COMFORT DRIVEN DESIGN
+            </p>
+            <a
+              href="#"
+              class="gsap-reveal button-reveal1 inline-block bg-white text-black text-base font-normal opacity-70 hover:opacity-100 py-4 px-12 md:py-5 md:px-32 rounded-sm"
+            >
+              Explore
+            </a>
+          </div>
+        </div>
+</div>
