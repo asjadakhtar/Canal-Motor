@@ -34,12 +34,28 @@ define('THEME_ASSETS', [
         'main' => [
             'path' => '/assets/css/custom.css',
             'deps' => ['fullpage'] // now depends on fullPage CSS
-        ]
+        ],
+        'aos' => [
+            'path' => '/node_modules/aos/dist/aos.css',
+            'deps' => []
+        ],
+        'swiper' => [
+            'path' => '/node_modules/swiper/swiper-bundle.min.css',
+            'deps' => []
+        ],
     ],
     'js' => [
         'gsap' => [ // GSAP JS
             'path' => '/assets/js/gsap.js',
             'deps' => [] 
+        ],
+        'swiper' => [
+            'path' => '/node_modules/swiper/swiper-bundle.min.js',
+            'deps' => []
+        ],
+        'aos' => [
+            'path' => '/node_modules/aos/dist/aos.js',
+            'deps' => []
         ],
         'fullpage' => [ // fullPage JS
             'path' => '/node_modules/fullpage/fullpage.min.js',
