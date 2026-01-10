@@ -3,8 +3,8 @@
     <!-- DASHING GROUP -->
         <div id="group-dashing" class="car-group active-group flex flex-col items-center">
         <div class="relative flex justify-center items-center">
-            <img src="pics/title(4).png" alt="" class="gsap-reveal absolute bottom-15 z-10 w-236" />
-            <img src="pics/car(4).png" alt="" class="car-move relative z-20 w-225" />
+            <img src="https://mintcream-spoonbill-317228.hostingersite.com/wp-content/uploads/2026/01/title5.webp" alt="" class="gsap-reveal absolute bottom-15 z-10 w-236" />
+            <img src="https://mintcream-spoonbill-317228.hostingersite.com/wp-content/uploads/2026/01/car5.webp" alt="" class="car-move relative z-20 w-225" />
         </div>
         <!-- Specific button for Dashing -->
         <a href="dashing.html " class="gsap-reveal button-reveal mt-9 border-2 border-black text-black text-base font-normal py-4 px-12 md:py-3.5 md:px-31 rounded-sm">
@@ -15,8 +15,8 @@
         <!-- X70 PLUS GROUP -->
         <div id="group-x70" class="car-group flex-col items-center">
         <div class="relative flex justify-center items-center">
-            <img src="pics/title(5).png" alt="" class="gsap-reveal absolute bottom-15 z-10 w-236" />
-            <img src="pics/car(5).png" alt="" class="car-move relative z-20 w-225" />
+            <img src="https://mintcream-spoonbill-317228.hostingersite.com/wp-content/uploads/2026/01/title4.webp" alt="" class="gsap-reveal absolute bottom-15 z-10 w-236" />
+            <img src="https://mintcream-spoonbill-317228.hostingersite.com/wp-content/uploads/2026/01/car4.webp" alt="" class="car-move relative z-20 w-225" />
         </div>
         <!-- Specific button for X70 -->
         <a href="x70.html" class="gsap-reveal button-reveal mt-9 border-2 border-black text-black text-base font-normal py-4 px-12 md:py-3.5 md:px-31 rounded-sm">
