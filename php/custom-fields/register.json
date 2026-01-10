@@ -12,5 +12,12 @@
         "description": "This is the about section of a webpage.",
         "template": "about",
         "keywords": "about, section, webpage"
+    },
+    {
+        "name": "car-gallery",
+        "title": "Car Gallery Section",
+        "description": "This is the car-gallery section of a webpage.",
+        "template": "car-gallery",
+        "keywords": "car-gallery, section, webpage"
     }
 ]
