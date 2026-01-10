@@ -27,9 +27,13 @@ define('THEME_ASSETS', [
             'path' => '/assets/css/tailwind-output.css',
             'deps' => []
         ],
+        'fullpage' => [ // fullPage CSS
+            'path' => '/node_modules/fullpage/fullpage.min.css',
+            'deps' => []
+        ],
         'main' => [
             'path' => '/assets/css/custom.css',
-            'deps' => ['fullpage'] // optional
+            'deps' => ['fullpage'] // now depends on fullPage CSS
         ]
     ],
     'js' => [
@@ -37,12 +41,17 @@ define('THEME_ASSETS', [
             'path' => '/assets/js/gsap.js',
             'deps' => [] 
         ],
+        'fullpage' => [ // fullPage JS
+            'path' => '/node_modules/fullpage/fullpage.min.js',
+            'deps' => ['jquery'] // typically depends on jQuery
+        ],
         'main' => [ // Custom JS
             'path' => '/assets/js/custom.js',
             'deps' => ['jquery', 'fullpage', 'gsap'] 
         ]
     ]
 ]);
+
 
 
 /**
