@@ -25,14 +25,14 @@
               <h2
                 class="gsap-reveal text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium max-w-[90%] md:max-w-4xl leading-[1.2] md:leading-15"
               >
-                Travel with JETOUR <br class="block" />
+                Travel with JETOUR <br class="hidden sm:block"/>
                 Enjoy Pleasant Journey
               </h2>
 
               <p
                 class="gsap-reveal text-white text-sm sm:text-base md:text-xl lg:text-2xl font-medium mt-4 md:mt-6 max-w-[85%] md:max-w-2xl opacity-90"
               >
-                Since its establishment, <br />JETOUR has consistently adhered
+                Since its establishment, <br/> JETOUR has consistently adhered
                 to the 'Travel+' strategy
               </p>
 
