@@ -1,4 +1,4 @@
-<footer class="bg-white text-black pt-16 pb-8  border-t border-gray-100 font-sans">
+<footer class="bg-white text-black pt-16 pb-8 px-17.5  border-t border-gray-100">
     <div class="w-full mx-auto">
         
         <!-- Parent Div with justify-between -->
