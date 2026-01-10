@@ -18,6 +18,14 @@ node_modules/aos/*
 !node_modules/aos/dist/aos.css
 !node_modules/aos/dist/aos.js
 
+
+
+# FullPage Files
+!node_modules/fullpage/
+!node_modules/fullpage/dist/fullpage.min.css
+!node_modules/fullpage/dist/fullpage.min.js
+
+
 # Backup Files
 Backup-files
 
