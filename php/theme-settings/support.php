@@ -5,7 +5,7 @@
  * Enables the following WordPress features
  * with proper configuration
  *
- * @package Amino
+ * @package Canal Motor
  * @version 1.0.0
  */
 

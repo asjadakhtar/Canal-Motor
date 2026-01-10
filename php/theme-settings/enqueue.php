@@ -5,7 +5,7 @@
  * Handles the efficient loading of CSS and JavaScript files
  * with proper versioning and dependency management.
  *
- * @package TheTriibe
+ * @package Canal Motor
  * @version 1.0.0
  */
 
@@ -27,18 +27,31 @@ define('THEME_ASSETS', [
             'path' => '/assets/css/tailwind-output.css',
             'deps' => []
         ],
+        'fullpage' => [ // fullPage CSS
+            'path' => '/assets/vendor/fullpage/fullpage.min.css',
+            'deps' => []
+        ],
         'main' => [
             'path' => '/assets/css/custom.css',
-            'deps' => []
+            'deps' => ['fullpage'] // optional
         ]
     ],
     'js' => [
-        'main' => [
-            'path' => '/assets/js/custom.js',
+        'fullpage' => [ // fullPage JS
+            'path' => '/assets/vendor/fullpage/fullpage.min.js',
             'deps' => ['jquery']
+        ],
+        'gsap' => [ // GSAP JS
+            'path' => '/assets/js/gsap.js',
+            'deps' => [] // agar GSAP ke liye koi dependency nahi
+        ],
+        'main' => [ // Custom JS
+            'path' => '/assets/js/custom.js',
+            'deps' => ['jquery', 'fullpage', 'gsap'] // dependencies: load order
         ]
     ]
 ]);
+
 
 /**
  * Enqueue stylesheet with proper version control
