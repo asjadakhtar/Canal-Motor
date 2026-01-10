@@ -46,7 +46,7 @@ define('THEME_ASSETS', [
     ],
     'js' => [
         'gsap' => [ // GSAP JS
-            'path' => '/assets/js/gsap.js',
+            'path' => '/node_modules/gsap.min.js',
             'deps' => [] 
         ],
         'swiper' => [
