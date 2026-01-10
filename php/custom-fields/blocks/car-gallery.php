@@ -32,7 +32,7 @@
         data-link="dashing.html"
       >
         <img
-          src="pics/car(4).png"
+          src="https://mintcream-spoonbill-317228.hostingersite.com/wp-content/uploads/2026/01/car4.webp"
           alt="DASHING"
           class="w-44 pb-6 transition-opacity"
         />
@@ -45,7 +45,7 @@
         data-link="x70.html"
       >
         <img
-          src="pics/car(5).png"
+          src="https://mintcream-spoonbill-317228.hostingersite.com/wp-content/uploads/2026/01/car5.webp"
           alt="X70 PLUS"
           class="w-44 pb-6 transition-opacity"
         />
