@@ -18,13 +18,16 @@ node_modules/aos/*
 !node_modules/aos/dist/aos.css
 !node_modules/aos/dist/aos.js
 
-
-
 # FullPage Files
 !node_modules/fullpage/
 !node_modules/fullpage/dist/fullpage.min.css
 !node_modules/fullpage/dist/fullpage.min.js
 
+# GSAP Files
+!node_modules/gsap/
+!node_modules/gsap/dist/gsap.min.js
+!node_modules/gsap/dist/ScrollTrigger.min.js
+!node_modules/gsap/dist/ScrollToPlugin.min.js
 
 # Backup Files
 Backup-files
