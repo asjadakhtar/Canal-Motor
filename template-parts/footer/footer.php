@@ -1,5 +1,5 @@
 <footer class="bg-white text-black pt-16 pb-8  border-t border-gray-100 font-sans">
-    <div class="container mx-auto">
+    <div class="w-full mx-auto">
         
         <!-- Parent Div with justify-between -->
         <div class="flex flex-col lg:flex-row justify-between gap-12 mb-16">
