@@ -26,5 +26,12 @@
         "description": "This is the journey section of a webpage.",
         "template": "journey",
         "keywords": "journey, section, webpage"
+    },
+    {
+        "name": "meet-jetour",
+        "title": "Meet Jetour Section",
+        "description": "This is the meet-jetour section of a webpage.",
+        "template": "meet-jetour",
+        "keywords": "meet-jetour, section, webpage"
     }
 ]
