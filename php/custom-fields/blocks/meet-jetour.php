@@ -3,14 +3,14 @@
     <div class="slide relative w-full h-screen overflow-hidden">
       <!-- Background Image -->
       <img
-        src="pics/bg-2_m.jpeg"
+        src="https://mintcream-spoonbill-317228.hostingersite.com/wp-content/uploads/2026/01/bg-2_m.jpeg"
         alt="Jetour Dashing Mobile"
         class="w-full h-screen block sm:hidden object-cover object-center"
       />
 
       <!-- DESKTOP IMAGE: Hidden below 640px, Visible from 640px up -->
       <img
-        src="pics/bg-2.jpg"
+        src="https://mintcream-spoonbill-317228.hostingersite.com/wp-content/uploads/2026/01/bg-2.jpg"
         alt="Jetour Dashing Desktop"
         class="w-full h-screen hidden sm:block object-cover object-center"
       />
