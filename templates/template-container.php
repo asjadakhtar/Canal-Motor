@@ -10,6 +10,13 @@ get_header(); ?>
         <div id="fullpage">
             <?php the_content(); ?>
         </div>
+
+        <div id="fullpage">
+            <?php get_template_part('template-parts/hero'); ?>
+            <?php get_template_part('template-parts/journey'); ?>
+            <?php get_template_part('template-parts/car-gallery'); ?>
+            <?php get_template_part('template-parts/meet-jetour'); ?>
+        </div>
     </div>
 </main>
 
