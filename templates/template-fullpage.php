@@ -1,6 +1,6 @@
 <?php 
 /*
- * Template Name: Container Template
+ * Template Name: Fullpage Template
  *
  */
 get_header(); ?>
