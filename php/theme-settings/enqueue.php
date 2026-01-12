@@ -19,16 +19,16 @@ if (!defined('ABSPATH')) {
 // Theme asset manifest - only reference files that exist in the theme to avoid leaks
 define('THEME_ASSETS', [
     'css' => [
+        'fullpage' => [ 
+            'path' => '/node_modules/fullpage/fullpage.min.css',
+            'deps' => []
+        ],
         'roboto' => [
             'path' => '/assets/fonts/roboto/stylesheet.css',
             'deps' => []
         ],
         'tailwind-output' => [
             'path' => '/assets/css/tailwind-output.css',
-            'deps' => []
-        ],
-        'fullpage' => [ 
-            'path' => '/node_modules/fullpage/fullpage.min.css',
             'deps' => []
         ],
         'main' => [
@@ -45,6 +45,10 @@ define('THEME_ASSETS', [
         ],
     ],
     'js' => [
+        'fullpage' => [ 
+            'path' => '/node_modules/fullpage/fullpage.min.js',
+            'deps' => ['jquery'] 
+        ],
         'gsap' => [ 
             'path' => '/node_modules/gsap/gsap.min.js',
             'deps' => [] 
@@ -56,10 +60,6 @@ define('THEME_ASSETS', [
         'aos' => [
             'path' => '/node_modules/aos/dist/aos.js',
             'deps' => []
-        ],
-        'fullpage' => [ 
-            'path' => '/node_modules/fullpage/fullpage.min.js',
-            'deps' => ['jquery'] 
         ],
         'main' => [ // Custom JS
             'path' => '/assets/js/custom.js',
