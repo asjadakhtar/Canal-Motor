@@ -1,4 +1,3 @@
-<section id="fullpage">
   <div class="section">
     <!-- Custom Navigation Arrows -->
     <div
@@ -111,4 +110,3 @@
       </div>
     </div>
   </div>
-</section>

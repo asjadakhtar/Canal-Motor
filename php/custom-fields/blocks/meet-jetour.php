@@ -1,4 +1,3 @@
-<section id="fullpage">
   <div class="section font-primary">
     <div class="slide relative w-full h-screen overflow-hidden">
       <!-- Background Image -->
@@ -50,4 +49,3 @@
       </div>
     </div>
   </div>
-</section>

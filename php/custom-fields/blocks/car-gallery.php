@@ -1,4 +1,3 @@
-<section id="fullpage">
   <div class="section car-section flex flex-col justify-center items-center px-17.5 bg-[#d9d9d9]">
     <!-- DASHING GROUP -->
         <div id="group-dashing" class="car-group active-group flex flex-col items-center">
@@ -55,4 +54,3 @@
       </div>
     </div>
   </div>
-</section>
