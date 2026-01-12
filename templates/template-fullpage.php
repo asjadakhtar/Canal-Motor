@@ -5,12 +5,10 @@
  */
 get_header(); ?>
 
-<main id="fullpage-template" class="<?php echo esc_attr(get_post_field('post_name', get_post())); ?> mt-20 lg:pt-14 pt-6 lg:pb-10 pb-0">
-
-        <div id="fullpage">
-            <?php the_content(); ?>
+<main id="fullpage-template" class="main-content overflow-hidden <?php echo esc_attr(get_post_field('post_name', get_post())); ?>">
+    <div id="fullpage">
+        <?php the_content(); ?>
         </div>
-        
-</main>
+    </main>
 
 <?php get_footer(); ?>
