@@ -45,10 +45,10 @@ define('THEME_ASSETS', [
         ],
     ],
     'js' => [
-        // 'gsap' => [ 
-        //     'path' => '/node_modules/gsap/gsap.min.js',
-        //     'deps' => [] 
-        // ],
+        'gsap' => [ 
+            'path' => '/node_modules/gsap/gsap.min.js',
+            'deps' => [] 
+        ],
         'swiper' => [
             'path' => '/node_modules/swiper/swiper-bundle.min.js',
             'deps' => []

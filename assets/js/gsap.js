@@ -31,6 +31,7 @@ function resetGsapAnimation(container) {
 
 
 
+
 // --- GSAP Reveal + Driving Animation ---
 document.addEventListener("DOMContentLoaded", function () {
   // Set Dashing as active in background, but DON'T run animation yet

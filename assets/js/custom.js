@@ -97,10 +97,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-
-
-
-
 // --- Initialize FullPage.js ---
 var myFullpage = new fullpage("#fullpage", {
   licenseKey: "xxxxxxxxxxxxxxxxxxxxxxxxx",
