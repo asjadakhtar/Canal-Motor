@@ -138,7 +138,7 @@ get_header(); ?>
             </div>
 
             <!-- X70 PLUS GROUP -->
-            <div id="group-x70" class="car-group hidden flex flex-col items-center">
+            <div id="group-x70" class="car-group flex-col items-center">
             <div class="relative flex justify-center items-center">
                 <img src="pics/title(5).png" alt="" class="gsap-reveal absolute bottom-15 z-10 w-236" />
                 <img src="pics/car(5).png" alt="" class="car-move relative z-20 w-225" />
