@@ -13,6 +13,18 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
+// Enqueue the fullpage.js library
+function enqueue_fullpage_js() {
+    wp_enqueue_script(
+        'fullpage-js',
+        'https://cdnjs.cloudflare.com/ajax/libs/fullpage.js/3.1.0/fullpage.min.js',
+        array(),
+        '3.1.0',
+        true
+    );
+}
+add_action('wp_enqueue_scripts', 'enqueue_fullpage_js');
+
 /**
  * Define asset paths and configurations
  */
@@ -45,10 +57,10 @@ define('THEME_ASSETS', [
         ],
     ],
     'js' => [
-        'fullpage' => [ 
-            'path' => '/node_modules/fullpage/fullpage.min.js',
-            'deps' => ['jquery'] 
-        ],
+        // 'fullpage' => [ 
+        //     'path' => '/node_modules/fullpage/fullpage.min.js',
+        //     'deps' => ['jquery'] 
+        // ],
         'gsap' => [ 
             'path' => '/node_modules/gsap/gsap.min.js',
             'deps' => [] 
