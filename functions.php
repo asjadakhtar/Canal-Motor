@@ -9,7 +9,7 @@
  * It handles theme setup, asset management, custom post types,
  * and other essential features.
  */
-
+return;
 if (!defined('ABSPATH')) {
     exit;
 }
