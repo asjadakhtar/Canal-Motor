@@ -14,16 +14,16 @@ if (!defined('ABSPATH')) {
 }
 
 // Enqueue the fullpage.js library
-// function enqueue_fullpage_js() {
-//     wp_enqueue_script(
-//         'fullpage-js',
-//         'https://cdnjs.cloudflare.com/ajax/libs/fullpage.js/3.1.0/fullpage.min.js',
-//         array(),
-//         '3.1.0',
-//         true
-//     );
-// }
-// add_action('wp_enqueue_scripts', 'enqueue_fullpage_js');
+function enqueue_fullpage_js() {
+    wp_enqueue_script(
+        'fullpage-js',
+        'https://cdnjs.cloudflare.com/ajax/libs/fullpage.js/3.1.0/fullpage.min.js',
+        array(),
+        '3.1.0',
+        true
+    );
+}
+add_action('wp_enqueue_scripts', 'enqueue_fullpage_js');
 
 /**
  * Define asset paths and configurations
@@ -31,12 +31,12 @@ if (!defined('ABSPATH')) {
 // Theme asset manifest - only reference files that exist in the theme to avoid leaks
 define('THEME_ASSETS', [
     'css' => [
-        'fullpage' => [ 
-            'path' => '/node_modules/fullpage/fullpage.min.css',
-            'deps' => []
-        ],
         'roboto' => [
             'path' => '/assets/fonts/roboto/stylesheet.css',
+            'deps' => []
+        ],
+        'fullpage' => [ 
+            'path' => '/node_modules/fullpage/fullpage.min.css',
             'deps' => []
         ],
         'tailwind-output' => [
@@ -47,14 +47,14 @@ define('THEME_ASSETS', [
             'path' => '/assets/css/custom.css',
             'deps' => ['fullpage'] // now depends on fullPage CSS
         ],
-        'aos' => [
-            'path' => '/node_modules/aos/dist/aos.css',
-            'deps' => []
-        ],
-        'swiper' => [
-            'path' => '/node_modules/swiper/swiper-bundle.min.css',
-            'deps' => []
-        ],
+        // 'aos' => [
+        //     'path' => '/node_modules/aos/dist/aos.css',
+        //     'deps' => []
+        // ],
+        // 'swiper' => [
+        //     'path' => '/node_modules/swiper/swiper-bundle.min.css',
+        //     'deps' => []
+        // ],
     ],
     'js' => [
         'fullpage' => [ 
@@ -65,13 +65,17 @@ define('THEME_ASSETS', [
             'path' => '/node_modules/gsap/gsap.min.js',
             'deps' => [] 
         ],
-        'swiper' => [
-            'path' => '/node_modules/swiper/swiper-bundle.min.js',
-            'deps' => []
-        ],
-        'aos' => [
-            'path' => '/node_modules/aos/dist/aos.js',
-            'deps' => []
+        // 'swiper' => [
+        //     'path' => '/node_modules/swiper/swiper-bundle.min.js',
+        //     'deps' => []
+        // ],
+        // 'aos' => [
+        //     'path' => '/node_modules/aos/dist/aos.js',
+        //     'deps' => []
+        // ],
+        'gsap-custom' => [ 
+            'path' => '/assets/js/gsap.js',
+            'deps' => [] 
         ],
         'main' => [ // Custom JS
             'path' => '/assets/js/custom.js',

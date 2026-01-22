@@ -9,7 +9,7 @@
  * It handles theme setup, asset management, custom post types,
  * and other essential features.
  */
-return;
+
 if (!defined('ABSPATH')) {
     exit;
 }
@@ -73,3 +73,4 @@ function show_server_file_path_in_media($form_fields, $post) {
     }
     return $form_fields;
 }
+

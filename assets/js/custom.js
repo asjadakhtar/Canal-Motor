@@ -1,3 +1,22 @@
+// document.addEventListener('DOMContentLoaded', function () {
+//   if (!document.querySelector('#fullpage')) return;
+
+//   new fullpage('#fullpage', {
+//     licenseKey: 'gplv3-license',
+//     autoScrolling: true,
+//     fitToSection: true,
+//     scrollingSpeed: 800,
+//     navigation: true
+//   });
+
+// console.log(typeof fullpage);
+
+// });
+
+
+
+
+
 //header logic hidden menu
 const header = document.getElementById("main-header");
 const triggers = document.querySelectorAll(".nav-trigger");
@@ -99,7 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // --- Initialize FullPage.js ---
 var myFullpage = new fullpage("#fullpage", {
-  licenseKey: "xxxxxxxxxxxxxxxxxxxxxxxxx",
+  licenseKey: "gplv3-license",
   scrollOverflow: false,
   controlArrows: false,
   loopHorizontal: true,
