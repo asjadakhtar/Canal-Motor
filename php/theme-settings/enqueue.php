@@ -65,14 +65,14 @@ define('THEME_ASSETS', [
             'path' => '/node_modules/gsap/gsap.min.js',
             'deps' => [] 
         ],
-        'swiper' => [
-            'path' => '/node_modules/swiper/swiper-bundle.min.js',
-            'deps' => []
-        ],
-        'aos' => [
-            'path' => '/node_modules/aos/dist/aos.js',
-            'deps' => []
-        ],
+        // 'swiper' => [
+        //     'path' => '/node_modules/swiper/swiper-bundle.min.js',
+        //     'deps' => []
+        // ],
+        // 'aos' => [
+        //     'path' => '/node_modules/aos/dist/aos.js',
+        //     'deps' => []
+        // ],
         'gsap-custom' => [ 
             'path' => '/assets/js/gsap.js',
             'deps' => [] 
