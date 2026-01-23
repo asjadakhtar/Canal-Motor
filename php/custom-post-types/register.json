@@ -1,0 +1,28 @@
+[
+    {
+        "post_type": "projects",
+        "slug": "projects",
+        "supports": ["title", "excerpt", "author", "thumbnail"],
+        "labels": {
+            "name": "Projects",
+            "add_new_item": "Add Project",
+            "edit_item": "Edit Project",
+            "all_items": "All Projects",
+            "singular_name": "Project"
+        },
+        "menu_icon": "dashicons-portfolio",
+        "has_featured_option": true,
+        "taxonomy": {
+            "name": "project_category",
+            "labels": {
+                "name": "Project Categories",
+                "singular_name": "Project Category",
+                "menu_name": "Projects Categories",
+                "all_items": "All Project Categories",
+                "add_new_item": "Add New Project Category",
+                "edit_item": "Edit Project Category",
+                "view_item": "View Project Category"
+            }
+        }
+    }
+]

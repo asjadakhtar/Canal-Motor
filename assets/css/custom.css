@@ -1,0 +1,72 @@
+body {
+    background-color: #0d0d0d;
+}
+
+/* Custom class for the animated underline */
+.nav-link {
+  position: relative;
+}
+/* The underline itself */
+.nav-link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px; /* Thicker line */
+  bottom: -4px; /* Space below text */
+  left: 0;
+  background-color: currentColor; /* Matches text color automatically */
+  transform-origin: bottom right;
+  transition: transform 0.4s ease-out;
+}
+.nav-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.car-group {
+  display: none;
+  width: 100%;
+  position: absolute;
+}
+.car-group.active-group {
+  display: flex;
+  position: relative;
+}
+
+/* Initial state for the 'Moving' car */
+.car-move {
+  opacity: 0;
+  transform: translateX(150px); /* Start from the right */
+}
+
+/* Thumbnail Opacity Logic */
+.car-selector {
+  transition: opacity 0.3s ease;
+}
+.car-selector.active-thumb {
+  opacity: 1 !important;
+}
+.car-selector:not(.active-thumb) {
+  opacity: 0.5;
+}
+
+/* Button hover override */
+.button-reveal:hover {
+  background-color: black;
+  color: white;
+  opacity: 1 !important;
+}
+
+.button-reveal1:hover {
+  opacity: 1 !important;
+}
+
+.fp-watermark {
+  display: none;
+}
+
+.gsap-reveal {
+  opacity: 0;
+  transform: translateY(120px);
+}
