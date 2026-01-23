@@ -8,7 +8,7 @@
  * @package Canal Motor
  * @version 1.0.0
  */
-    
+
 if (!defined('ABSPATH')) {
     exit;
 }
@@ -143,3 +143,5 @@ function enqueue_theme_assets() {
 add_action('wp_enqueue_scripts', 'enqueue_theme_assets');
 
 // Note: theme supports such as WooCommerce should be declared in support.php (after theme setup)
+
+
