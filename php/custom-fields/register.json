@@ -21,6 +21,20 @@
         "keywords": "form-vedio, section, webpage"
     },
     {
+        "name": "travel",
+        "title": "Travel Section",
+        "description": "This is the travel section of a webpage.",
+        "template": "travel",
+        "keywords": "travel, section, webpage"
+    },
+    {
+        "name": "newsletter",
+        "title": "Newsletter Section",
+        "description": "This is the newsletter section of a webpage.",
+        "template": "newsletter",
+        "keywords": "newsletter, section, webpage"
+    },
+    {
         "name": "car-gallery",
         "title": "Car Gallery Section",
         "description": "This is the car-gallery section of a webpage.",
