@@ -14,6 +14,13 @@
         "keywords": "about, section, webpage"
     },
     {
+        "name": "form-vedio",
+        "title": "Form Video Section",
+        "description": "This is the form-vedio section of a webpage.",
+        "template": "form-vedio",
+        "keywords": "form-vedio, section, webpage"
+    },
+    {
         "name": "car-gallery",
         "title": "Car Gallery Section",
         "description": "This is the car-gallery section of a webpage.",

@@ -62,7 +62,6 @@
     --leading-relaxed: 1.625;
     --radius-sm: 0.25rem;
     --radius-lg: 0.5rem;
-    --radius-xl: 0.75rem;
     --drop-shadow-2xl: 0 25px 25px rgb(0 0 0 / 0.15);
     --ease-out: cubic-bezier(0, 0, 0.2, 1);
     --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
@@ -715,6 +714,9 @@
   .bg-\[\#e5e5e5\] {
     background-color: #e5e5e5;
   }
+  .bg-black {
+    background-color: var(--color-black);
+  }
   .bg-black\/20 {
     background-color: color-mix(in srgb, #000 20%, transparent);
     @supports (color: color-mix(in lab, red, red)) {
@@ -1351,6 +1353,16 @@
   .md\:mb-32 {
     @media (width >= 48rem) {
       margin-bottom: calc(var(--spacing) * 32);
+    }
+  }
+  .md\:block {
+    @media (width >= 48rem) {
+      display: block;
+    }
+  }
+  .md\:hidden {
+    @media (width >= 48rem) {
+      display: none;
     }
   }
   .md\:w-1\/2 {
