@@ -207,10 +207,8 @@
           id="menu-explore"
           class="menu-content hidden items-center text-base font-normal gap-x-21.5 max-w-200 mx-auto py-8"
         >
-          <a href="#" class="nav-link">About JETOUR</a>
+          <a href="http://localhost/canalmotor/about/" class="nav-link">About JETOUR</a>
           <a href="#" class="nav-link">Technology</a>
-          <a href="#" class="nav-link">JETOUR Life</a>
-          <a href="#" class="nav-link">History</a>
           <a href="#" class="nav-link">News</a>
         </div>
 

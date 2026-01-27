@@ -54,5 +54,12 @@
         "description": "This is the meet-jetour section of a webpage.",
         "template": "meet-jetour",
         "keywords": "meet-jetour, section, webpage"
+    },
+    {
+        "name": "technology",
+        "title": "Technology Section",
+        "description": "This is the technology section of a webpage.",
+        "template": "technology",
+        "keywords": "technology, section, webpage"
     }
 ]
