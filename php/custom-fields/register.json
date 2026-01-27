@@ -61,5 +61,12 @@
         "description": "This is the technology section of a webpage.",
         "template": "technology",
         "keywords": "technology, section, webpage"
+    },
+    {
+        "name": "news",
+        "title": "News Section",
+        "description": "This is the news section of a webpage.",
+        "template": "news",
+        "keywords": "news, section, webpage"
     }
 ]

@@ -209,7 +209,7 @@
         >
           <a href="http://localhost/canalmotor/about/" class="nav-link">About JETOUR</a>
           <a href="http://localhost/canalmotor/technology/" class="nav-link">Technology</a>
-          <a href="#" class="nav-link">News</a>
+          <a href="http://localhost/canalmotor/news/" class="nav-link">News</a>
         </div>
 
         <!-- Support Content -->
