@@ -1,4 +1,7 @@
-<section class="section relative h-screen w-full flex flex-col items-center justify-center overflow-hidden">
+ <div id="fullpage">
+      <section
+        class="section relative h-screen w-full flex flex-col items-center justify-center overflow-hidden"
+      >
         <!-- Background Image Container -->
         <div class="absolute inset-0 z-0">
           <!-- 1. Mobile Image: -->
@@ -75,7 +78,7 @@
             </p>
           </div>
         </div>
-</section>
+      </section>
 
       <section
         class="section relative h-screen w-full flex flex-col items-center justify-center overflow-hidden"
@@ -243,3 +246,4 @@
           </div>
         </div>
       </section>
+    </div>
