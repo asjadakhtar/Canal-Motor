@@ -9,6 +9,7 @@
 
     --default-font-family: "roboto", sans-serif;
 
-    --font-secondary: "goldman", sans-serif;
+  --font-accent: "Goldman", serif;
+  --color-secondary: #308a81;
 
 }
