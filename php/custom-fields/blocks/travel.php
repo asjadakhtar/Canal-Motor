@@ -1,4 +1,4 @@
-<section class="section font-primary">
+<div class="section font-primary">
   <div class="slide relative w-full h-screen overflow-hidden">
     <img
       src="http://localhost/canalmotor/wp-content/uploads/2026/01/about-bg-m.png"
@@ -42,4 +42,4 @@
       </div>
     </div>
   </div>
-</section>
+</div>
