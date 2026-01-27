@@ -68,5 +68,12 @@
         "description": "This is the news section of a webpage.",
         "template": "news",
         "keywords": "news, section, webpage"
+    },
+    {
+        "name": "price",
+        "title": "Price Section",
+        "description": "This is the price section of a webpage.",
+        "template": "price",
+        "keywords": "price, section, webpage"
     }
 ]
