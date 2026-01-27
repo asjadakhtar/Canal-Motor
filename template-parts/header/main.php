@@ -46,8 +46,8 @@
         </div>
 
         <div class="gap-x-15 hidden lg:flex">
-          <a href="#" class="nav-link">Pricing</a>
-          <a href="#" class="nav-link">Contact Us</a>
+          <a href="http://localhost/canalmotor/price/" class="nav-link">Pricing</a>
+          <a href="http://localhost/canalmotor/contact-us/" class="nav-link">Contact Us</a>
         </div>
 
         <button id="mobile-menu-trigger" class="lg:hidden p-2 text-current">
