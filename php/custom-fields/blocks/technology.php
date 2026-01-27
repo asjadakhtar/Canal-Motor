@@ -6,14 +6,14 @@
         <div class="absolute inset-0 z-0">
           <!-- 1. Mobile Image: -->
           <img
-            src="pics/tech-1-m.png"
+            src="http://localhost/canalmotor/wp-content/uploads/2026/01/tech-1-m.png"
             alt="Forest Mobile"
             class="block sm:hidden w-full h-full object-cover"
           />
 
           <!-- 2. Desktop Image: -->
           <img
-            src="pics/tech-1.png"
+            src="http://localhost/canalmotor/wp-content/uploads/2026/01/tech-1.png"
             alt="Forest Desktop"
             class="hidden sm:block w-full h-full object-cover"
           />
@@ -58,14 +58,14 @@
         <div class="absolute inset-0 z-0">
           <!-- Mobile Image: 640px se niche -->
           <img
-            src="pics/tech-2-m.png"
+            src="http://localhost/canalmotor/wp-content/uploads/2026/01/tech-2-m.png"
             alt="JETOUR Mobile Background"
             class="block sm:hidden w-full h-full object-cover"
           />
 
           <!-- Desktop Image: 640px se upar -->
           <img
-            src="pics/tech-2.png"
+            src="http://localhost/canalmotor/wp-content/uploads/2026/01/tech-2.png"
             alt="JETOUR Desktop Background"
             class="hidden sm:block w-full h-full object-cover"
           />
@@ -128,11 +128,11 @@
                 class="absolute inset-0 bg-black/40 z-20 pointer-events-none"
               ></div>
               <img
-                src="pics/ts-1-m.png"
+                src="http://localhost/canalmotor/wp-content/uploads/2026/01/ts-5-m.png"
                 class="w-full h-screen block sm:hidden object-cover object-center"
               />
               <img
-                src="pics/ts-1.png"
+                src="http://localhost/canalmotor/wp-content/uploads/2026/01/ts-5.png"
                 class="w-full h-screen hidden sm:block object-cover object-center"
               />
               <!-- Container Wrapper -->
@@ -162,11 +162,11 @@
                 class="absolute inset-0 bg-black/40 z-20 pointer-events-none"
               ></div>
               <img
-                src="pics/ts-2-m.png"
+                src="http://localhost/canalmotor/wp-content/uploads/2026/01/ts-1-m.png"
                 class="w-full h-screen block sm:hidden object-cover object-center"
               />
               <img
-                src="pics/ts-2.png"
+                src="http://localhost/canalmotor/wp-content/uploads/2026/01/ts-1.png"
                 class="w-full h-screen hidden sm:block object-cover object-center"
               />
               <div
@@ -194,11 +194,11 @@
                 class="absolute inset-0 bg-black/40 z-20 pointer-events-none"
               ></div>
               <img
-                src="pics/ts-3-m.png"
+                src="http://localhost/canalmotor/wp-content/uploads/2026/01/ts-2-m.png"
                 class="w-full h-screen block sm:hidden object-cover object-center"
               />
               <img
-                src="pics/ts-3.png"
+                src="http://localhost/canalmotor/wp-content/uploads/2026/01/ts-2.png"
                 class="w-full h-screen hidden sm:block object-cover object-center"
               />
               <div
@@ -226,11 +226,11 @@
                 class="absolute inset-0 bg-black/40 z-20 pointer-events-none"
               ></div>
               <img
-                src="pics/ts-4-m.png"
+                src="http://localhost/canalmotor/wp-content/uploads/2026/01/ts-3-m.png"
                 class="w-full h-screen block sm:hidden object-cover object-center"
               />
               <img
-                src="pics/ts-4.png"
+                src="http://localhost/canalmotor/wp-content/uploads/2026/01/ts-3.png"
                 class="w-full h-screen hidden sm:block object-cover object-center"
               />
               <div
@@ -259,11 +259,11 @@
                 class="absolute inset-0 bg-black/40 z-20 pointer-events-none"
               ></div>
               <img
-                src="pics/ts-5-m.png"
+                src="http://localhost/canalmotor/wp-content/uploads/2026/01/ts-4-m.png"
                 class="w-full h-screen block sm:hidden object-cover object-center"
               />
               <img
-                src="pics/ts-5.png"
+                src="http://localhost/canalmotor/wp-content/uploads/2026/01/ts-4.png"
                 class="w-full h-screen hidden sm:block object-cover object-center"
               />
               <div
@@ -337,14 +337,14 @@
         <div class="absolute inset-0 z-0">
           <!-- Mobile Image: 640px se niche -->
           <img
-            src="pics/tech-3-m.png"
+            src="http://localhost/canalmotor/wp-content/uploads/2026/01/tech-3-m.png"
             alt="JETOUR Mobile Background"
             class="block sm:hidden w-full h-full object-cover"
           />
 
           <!-- Desktop Image: 640px se upar -->
           <img
-            src="pics/tech-3.png"
+            src="http://localhost/canalmotor/wp-content/uploads/2026/01/tech-3.png"
             alt="JETOUR Desktop Background"
             class="hidden sm:block w-full h-full object-cover"
           />
