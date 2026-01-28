@@ -217,8 +217,8 @@
           id="menu-support"
           class="menu-content hidden items-center text-base font-normal gap-x-21.5 max-w-90 mx-auto py-8"
         >
-          <a href="#" class="nav-link">Book a Service</a>
-          <a href="#" class="nav-link">Contact Us</a>
+          <a href="http://localhost/canalmotor/become-a-dealer/" class="nav-link">Become a Dealer</a>
+          <a href="http://localhost/canalmotor/contact-us/" class="nav-link">Contact Us</a>
         </div>
       </div>
 

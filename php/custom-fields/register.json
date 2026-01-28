@@ -75,5 +75,19 @@
         "description": "This is the price section of a webpage.",
         "template": "price",
         "keywords": "price, section, webpage"
+    },
+    {
+        "name": "contact-us",
+        "title": "Contact Us Section",
+        "description": "This is the contact-us section of a webpage.",
+        "template": "contact-us",
+        "keywords": "contact-us, section, webpage"
+    },
+    {
+        "name": "become-a-dealer",
+        "title": "Become a Dealer Section",
+        "description": "This is the become-a-dealer section of a webpage.",
+        "template": "become-a-dealer",
+        "keywords": "become-a-dealer, section, webpage"
     }
 ]
